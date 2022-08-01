@@ -10,6 +10,7 @@ func main() {
 }
 
 func TwoSum(list []int, target int) []int {
+	// O(n*n)
 	/* for i := 0; i < len(list); i++ {
 		for j := i + 1; j < len(list); j++ {
 			if list[i]+list[j] == target {
@@ -26,5 +27,5 @@ func TwoSum(list []int, target int) []int {
 		}
 		m[num] = idx
 	}
-	return nil
+	return []int{}
 }
